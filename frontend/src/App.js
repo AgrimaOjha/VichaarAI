@@ -131,13 +131,18 @@ export default function App() {
     setScore("");
 
     try {
-      const res = await axios.post("http://localhost:8000/generate", { topic });
+      const res = await axios.post(
+        "https://vichaarai-backend.onrender.com/generate",
+        { topic }
+      );
+
       setEssay(res.data.essay);
       setScore(res.data.score || "");
       setShowOut(true);
       setTimeout(() => setVisible(true), 20);
+
     } catch {
-      setEssay("No signal from localhost:8000.\n\nLaunch your FastAPI server to receive transmissions.");
+      setEssay("⏳ Server is waking up… please try again in a few seconds.");
       setShowOut(true);
       setTimeout(() => setVisible(true), 20);
     }
@@ -146,9 +151,11 @@ export default function App() {
   };
 
   const handleKey = (e) => {
-    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); transmit(); }
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      transmit();
+    }
   };
-
   return (
     <>
       <style>{`
