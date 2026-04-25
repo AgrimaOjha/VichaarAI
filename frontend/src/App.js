@@ -441,7 +441,7 @@ export default function App() {
           <div className="vi-corner tl" /><div className="vi-corner tr" />
           <div className="vi-corner bl" /><div className="vi-corner br" />
 
-          <div className="vi-label">// TRANSMIT QUERY</div>
+          <div className="vi-label">TRANSMIT QUERY</div>
 
           <textarea
             className="vi-textarea"
@@ -473,7 +473,7 @@ export default function App() {
             <div className="vi-corner-p bl" /><div className="vi-corner-p br" />
             <div className="vi-out-header">
               <div className="vi-dot" />
-              <span className="vi-out-label">// SIGNAL RECEIVED</span>
+              <span className="vi-out-label">SIGNAL RECEIVED</span>
             </div>
             <p className="vi-out-text">{displayed}</p>
           </div>
