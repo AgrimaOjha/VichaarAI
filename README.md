@@ -1,6 +1,6 @@
 # VichaarAI
 
-# 🧠 VichaarAI
+# VichaarAI
 
 ### *Think. Write. Refine.*
 
@@ -10,42 +10,42 @@ Unlike traditional generators, VichaarAI **thinks before it writes**—mimicking
 
 ---
 
-## ✨ Demo Experience
+## Demo Experience
 
 > *Enter a thought → Watch it evolve → Receive refined insight*
 
-* 🌌 Oracle-inspired UI with light & dark themes
-* ✨ Typewriter effect for dynamic output
-* 🔁 Transparent “AI Thought Process” visualization
+* Oracle-inspired UI with light & dark themes
+* Typewriter effect for dynamic output
+* Transparent “AI Thought Process” visualization
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🔍 **Research Agent**
+* **Research Agent**
   Generates search queries and gathers contextual information
 
-* ✍️ **Writer Agent**
+* **Writer Agent**
   Produces structured essays (Introduction → Body → Conclusion)
 
-* 🧐 **Critic Agent**
+* **Critic Agent**
   Provides detailed feedback on logic, clarity, and depth
 
-* 🔁 **Iterative Refinement Loop**
+* **Iterative Refinement Loop**
   Improves the essay over multiple passes using critique
 
-* 📊 **Evaluator Agent**
+* **Evaluator Agent**
   Scores the essay on clarity, structure, and depth
 
-* 🌐 **Full-Stack Application**
+* **Full-Stack Application**
   FastAPI backend + React frontend
 
-* 🎨 **Immersive UI**
+* **Immersive UI**
   Cosmic theme, glassmorphism, animations, and theme toggle
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 ```
 User Input
@@ -65,7 +65,7 @@ Final Essay Output + Thought Process
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -82,9 +82,9 @@ Final Essay Output + Thought Process
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 🔧 Backend
+### Backend
 
 ```bash
 cd backend
@@ -105,7 +105,7 @@ uvicorn main:app --reload
 
 ---
 
-### 🎨 Frontend
+### Frontend
 
 ```bash
 cd frontend
@@ -115,7 +115,7 @@ npm start
 
 ---
 
-## 🌍 Usage
+## Usage
 
 1. Open the app in your browser
 2. Enter a topic
@@ -125,34 +125,34 @@ npm start
 
 ---
 
-## 💡 Key Highlights
+## Key Highlights
 
-* 🧠 Demonstrates **Agentic AI Design**
-* 🔁 Implements **Self-Reflection Loops**
-* 🌐 Integrates **Retrieval-Augmented Generation (RAG-like flow)**
-* 🎯 Focuses on **Explainability & Transparency**
-* 🎨 Combines **AI + UX for immersive experience**
-
----
-
-## 🧪 Future Enhancements
-
-* 📄 Export essay as PDF
-* 🌌 Advanced animated starfield background
-* 🎤 Voice input support
-* 📚 Inline citations (true RAG)
-* ☁️ Deployment (Vercel + Render)
+* Demonstrates **Agentic AI Design**
+* Implements **Self-Reflection Loops**
+* Integrates **Retrieval-Augmented Generation (RAG-like flow)**
+* Focuses on **Explainability & Transparency**
+* Combines **AI + UX for immersive experience**
 
 ---
 
-## 🏆 Inspiration
+## Future Enhancements
+
+* Export essay as PDF
+* Advanced animated starfield background
+* Voice input support
+* Inline citations (true RAG)
+* Deployment (Vercel + Render)
+
+---
+
+## Inspiration
 
 Built with the idea that AI shouldn’t just generate—
 it should **reason, reflect, and refine**.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Agrima Ojha**
 BTech CS (AI)
@@ -160,9 +160,3 @@ Passionate about building intelligent systems and meaningful tech
 
 ---
 
-## ⭐ Final Note
-
-VichaarAI is not just an essay generator.
-It’s a step toward **thinking machines**.
-
----
